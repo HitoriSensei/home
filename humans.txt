@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Piotr Hitori Bosak -- Programmer -- @HitoriSensei
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr

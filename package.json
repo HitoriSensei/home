@@ -1,0 +1,9 @@
+{
+    "dependencies" : {
+        "stylus" : "*",
+        "nib" : "*",
+        "canvas" : "*",
+        "browserify" : "*",
+        "sugar" : "*"
+    }
+}

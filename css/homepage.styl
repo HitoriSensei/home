@@ -1,0 +1,114 @@
+html
+body
+  font-family: 'Source Sans Pro', sans-serif
+  background #FFFAE5
+  color #332924
+
+.logo
+  position absolute
+  margin 40px
+
+.jumbo
+  position absolute
+  top 50%
+  left 50%
+  .text
+    :after
+      content ''
+  font-size 100px
+  margin -100px 0 0 -300px
+  width 600px
+  height 300px
+  text-align left
+  line-height 0.8em
+  font-weight 700
+  white-space nowrap
+
+
+.heart
+  color #A6192A
+  img
+    height 0.9em
+    position relative
+    top -0.09em
+    vertical-align middle
+    margin-left 10px
+
+.fishy
+  overflow hidden
+  width 100%
+  height 100%
+  position absolute
+  img.wave
+    animation: 5s ease-in-out 0s normal forwards infinite waveAnim
+    transform-origin: 50% 50%;
+  .swim
+    display inline-block
+    animation: 5s ease-in-out 0s normal forwards infinite swimAnim
+    transform-origin: 50% 50%;
+  .tractor
+    position absolute
+    height 100px
+    margin-top -50px
+    &.move-right
+      display inline-block
+      animation: 40s linear 0s normal forwards infinite moveRight
+    &.move-left
+      transform scale(-1,1)
+      display inline-block
+      animation: 40s linear 0s normal forwards infinite moveLeft
+
+
+
+@keyframes waveAnim {
+  0% {
+    transform: translate(-10px, -20px) scale(1, 1)
+  }
+  50% {
+    transform: translate(10px, 20px) scale(0.9, 1)
+  }
+  100% {
+    transform: translate(-10px, -20px) scale(1, 1)
+  }
+}
+
+@keyframes swimAnim
+  0% {
+    transform:  rotate(-7deg) ;
+  }
+  50% {
+    transform:  rotate(7deg) ;
+  }
+  100% {
+    transform:  rotate(-7deg) ;
+  }
+
+
+@keyframes moveLeft
+  0% {
+    transform:  rotate(-7deg) ;
+  }
+  50% {
+    transform:  rotate(7deg) ;
+  }
+  100% {
+    transform:  rotate(-7deg) ;
+  }
+
+
+@keyframes moveRight
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -250px;
+  }
+
+
+@keyframes moveLeft
+  0% {
+    left: -250px;
+  }
+  100% {
+    left: 100%;
+  }
