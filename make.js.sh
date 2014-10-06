@@ -1,2 +1,2 @@
 #!/bin/sh
-watchify js/main.js -o js/pretty.bundle.js -v
+watchify js/main.js -o js/bundle.js -v
