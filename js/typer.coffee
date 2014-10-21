@@ -9,6 +9,8 @@ typograph = (node,delay = [50,70])->
     node.html(word)
 
   typeALetter = (letter)->
+    if letter == '\n'
+      letter = '<br/>'
     word = "#{word}#{letter}"
     update(word)
 

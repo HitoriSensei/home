@@ -19,7 +19,8 @@ selectRandomWord = do ->
   randomizer = (set)->
     x = set.length
     y = set[Math.floor(Math.random()*x)]
-    y = if y in last5 then randomizer(set) else y
+    if set.length > 7
+      y = if y in last5 then randomizer(set) else y
     last5 = last5.from(1).concat(y)
     y
 

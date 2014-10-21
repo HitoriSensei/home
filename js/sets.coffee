@@ -5,6 +5,7 @@ professional = [
   'IntelliJ IDEA'
   'F#'
   'Quality'
+  'Declarative\nprogramming'
   'HTML5'
   'Javascript'
   'Coffeescript'
@@ -19,6 +20,8 @@ professional = [
   'Science'
   'Protocols'
   'Linux'
+  'Challenges'
+  'Progress'
 ]
 
 personal = [
@@ -27,13 +30,12 @@ personal = [
   'ZEN'
   'Discovery'
   'Electronic music'
-  'Beauty'
+  'Melodic dubstep'
   'Ramen'
   'Dogs'
   'Japan'
   'Manga'
   'Anime'
-  'Phoenix Wright'
   'Nintendo'
   'Mario Bros.'
   'Commodore 64'
